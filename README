@@ -1,0 +1,12 @@
+python3 translator.py
+cp parts.csv parts_2.csv
+# éditer parts2.csv avec le CO2 (utiliser le sheet de Yann)
+# éditer addfuel.py pour avoir le bon fichier d'entrer
+# éditer le nom du fichier télchargé
+python3 addfuel.py
+./insert_co2_script.sh  # applique les modifications
+# créer parts_script_todo.csv à partir de Parts - parts_3_full_mass_price.csv
+python3 script_csv_translator.py  # modifie les noms de .cfg aux vrais
+python3 dict_creator.py
+# édtier calculate_empty.py
+# édtier le prix des ressources
