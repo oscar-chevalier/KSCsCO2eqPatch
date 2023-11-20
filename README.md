@@ -20,10 +20,10 @@ python3 addfuel.py
 
 ### Modification de ``calculate_empty.py``
 ```# Créer "parts_script_todo.csv" à partir de "Parts - parts_3_full_mass_price.csv"
-python3 script_csv_translator.py  # Modifie les noms de .cfg pou le nom utilisé par le jeu
+python3 script_csv_translator.py  # Modifie les noms de .cfg pour le nom utilisé par le jeu
 python3 dict_creator.py
-# Édtier "calculate_empty.py"
-# Édtier le prix des ressources
+# Éditer "calculate_empty.py"
+# Éditer le prix des ressources
 ```
 
 # English
