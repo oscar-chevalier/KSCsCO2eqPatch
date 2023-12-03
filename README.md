@@ -4,6 +4,17 @@ Tous ces outils ont été créé pour le KSPACECONTEST de 2023 organisé par Spa
 Cette chaîne d'outil modifie directement les fichiers du jeu (surtout les fichier ".cfg" des pièces).
 L'objectif est d'appliquer un coût équivalent CO2 aux pièces.
 
+## Attention ! Compatibilité Restreinte !
+Le but de ce mod est de récréer des conditions équivalentes au KSPACECONTEST 2023 c'est à dire une
+expérience de jeu particulière pour le mode Sandbox uniquement !
+Ce mod change les prix des parts pour
+- KSP Stock
+- KSP DLCs (les deux)
+- Restock+
+- KER (oui les deux petites parts fournies avec le mod)
+En aucune manière la compatibilité de ce mod avec le mode carrière existant n'a été voulue car
+les contrats et la mécanique financière du jeu ne sont pas modifiés pour en tenir compte.
+
 ## Utilisation
 ### Précisions
 Tous les CSV sont séparé par des ";".
@@ -31,6 +42,17 @@ python3 dict_creator.py
 This tools were created for the KSPACECONTEST23 organised by Spacecon and KSC.
 This tool chain directly modify the game files (mainly the parts' files ".cfg").
 The objective is to apply a cost of equivalent CO2 to the parts.
+
+## Warning! Limited Compatibility!
+The purpose of this mod is to reproduce the specific conditions players encountered for the
+KSPACECONTEST 2023: a specific game experience for a Sandbox Game!
+This mod alters the price of parts for
+- KSP Stock
+- KSP DLCs (both)
+- Restock+
+- KER (yes, the 2 little parts provided with this mod)
+In no way was the compatibility of this mod with the existing career mode intended because
+contracts and the financial mechanics of the game are not modified accordingly.
 
 ## Use
 ### Précisions
