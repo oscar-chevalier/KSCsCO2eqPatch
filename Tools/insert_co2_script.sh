@@ -1,4 +1,8 @@
 #!/bin/bash
+#################################################################
+# WARNING
+#----------------
+# This way the old way. Now we patch KSP files with ModuleManager.
 
 separate_args()
 {
