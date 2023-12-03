@@ -101,9 +101,11 @@ https://github.com/yalov/TransferWindowPlanner/releases
 
 ### Configuration
 There are 2 files to be manually updated 
-- GameData/KSRSS/Patches/KSRSS_LaunchSites.cfg
+
+> GameData/KSRSS/Patches/KSRSS_LaunchSites.cfg
 DefaultSite line => 	@DefaultSite = fr_kourou
-- GameData/KSRSS/Configuration.cfg
+
+> GameData/KSRSS/Configuration.cfg
 SystemScale line =>   SystemScale = Stock // Default, Stock
 
 ## Use
