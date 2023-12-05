@@ -24,7 +24,7 @@ Pour le moment le mod n'est pas packagé CKAN aussi la liste des mods constituan
 est la suivante. Nous recommandons d'utiliser CKAN qui permet de gérer les dépendances.
 Si vous n'utilisez pas CKAN, à vous de trouver quelle dépendance doit s'appliquer.
 
-#1) Obligatoire#, avec CKAN, installez
+**1) Obligatoire**, avec CKAN, installez
 - Kopernicus.
 - Si vous souhaitez une gestion du temps depuis 1957, installez Kronometer
 - KSCSwitcher
@@ -32,13 +32,13 @@ Si vous n'utilisez pas CKAN, à vous de trouver quelle dépendance doit s'appliq
 - Restockplus, Restockplus RigidLegs
 - Trajectories
 
-#2) Obligatoire#, manuellement, installez
+**2) Obligatoire**, manuellement, installez
 - KSRSS, https://gitlab.com/ksrss/KSRSS choisissez reborn
 - Version spécifique de Transfer Window Planner qui permet de créer des alarmes dans le KAC stock du jeu :
 https://github.com/yalov/TransferWindowPlanner/releases
 - Notre patch trouvable dans nos releases https://github.com/oscar-chevalier/KSPACECONTEST23-tools/releases
 
-#3) Facultatif#, avec CKAN, installez
+**3) Facultatif**, avec CKAN, installez
 - Kronometer,
 - EVE, Scatterer, PlanetShine, DistantObjectEnhancement
 - Nous recommandons chaudement d'installer KSPCommunityFixes 
