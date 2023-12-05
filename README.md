@@ -26,7 +26,6 @@ Si vous n'utilisez pas CKAN, à vous de trouver quelle dépendance doit s'appliq
 
 **1) Obligatoire**, avec CKAN, installez
 - Kopernicus.
-- Si vous souhaitez une gestion du temps depuis 1957, installez Kronometer
 - KSCSwitcher
 - KER,
 - Restockplus, Restockplus RigidLegs
@@ -39,11 +38,11 @@ https://github.com/yalov/TransferWindowPlanner/releases
 - Notre patch trouvable dans nos releases https://github.com/oscar-chevalier/KSPACECONTEST23-tools/releases
 
 **3) Facultatif**, avec CKAN, installez
-- Kronometer,
+- Si vous souhaitez une gestion du temps à la RSS, installez Kronometer
 - EVE, Scatterer, PlanetShine, DistantObjectEnhancement, Waterfall core, Waterfall Restock voire RealPlume pour les boosters à poudre
 - Nous recommandons chaudement d'installer KSPCommunityFixes 
 
-## Utilisation
+## Les outils, leur utilisation
 ### Précisions
 Tous les CSV sont séparé par des ";".
 Cette chaîne d'outils est faite pour fonctionner sur une distribution Linux avec Python3.
@@ -85,32 +84,33 @@ In no way was the compatibility of this mod with the existing career mode intend
 contracts and the financial mechanics of the game are not modified accordingly.
 In the same way, no consideration of part mods other than those listed above is ensured.
 
-## Building your GameData
+## Building the KSPACECONTEST2003 GameData
 ### Installation
-At the moment the mod is not packaged with CKAN also the list of mods constituting the GameData of the competition
-is the following. We recommend installing them via CKAN unless explicitly stated otherwise.
-- KSRSS and its Kopernicus dependency. You can also install Kronometer if you feel like it.
-Please note KSRSS can be downloaded from GitLab: https://gitlab.com/ksrss/KSRSS
-- KSCSwitcher, so that Kourou is the default space base
-- EVE, Scatterer
-- Restock, Restock+, Restock RigidLegs
-- KER, Trajectories
+At the moment the mod is not packaged CKAN also the list of mods constituting the GameData of the competition
+is the following. We recommend using CKAN which allows you to manage dependencies.
+If you are not using CKAN, it is up to you to figure out which dependency should apply.
+
+**1) Mandatory**, with CKAN, install
+- Kopernicus.
+- KSCSwitcher
+- KER,
+- Restockplus, Restockplus RigidLegs
+- Trajectories
+
+**2) Mandatory**, manually, install
+- KSRSS, https://gitlab.com/ksrss/KSRSS choose reborn
 - Specific version of Transfer Window Planner which allows you to create alarms in the game's stock KAC:
 https://github.com/yalov/TransferWindowPlanner/releases
-- There was no KSPCommunityFixes but you can add it without problem.
-- and therefore the GameData content of this present mod
+- Our patch found in our releases https://github.com/oscar-chevalier/KSPACECONTEST23-tools/releases
 
-### Configuration
-There are 2 files to be manually updated 
+**3) Optional**, with CKAN, install
+- If you want a RSS like time management, install Kronometer
+- EVE, Scatterer, PlanetShine, DistantObjectEnhancement, Waterfall core, Waterfall Restock or even RealPlume for powder boosters
+- We highly recommend installing KSPCommunityFixes
 
-> GameData/KSRSS/Patches/KSRSS_LaunchSites.cfg
-DefaultSite line => 	@DefaultSite = fr_kourou
 
-> GameData/KSRSS/Configuration.cfg
-SystemScale line =>   SystemScale = Stock // Default, Stock
-
-## Use
-### Précisions
+## The Tools used, and how to use them
+### Precisions
 All the CSV are ";" separated.
 This tool chain is made to work on Linux with Python3.
 
