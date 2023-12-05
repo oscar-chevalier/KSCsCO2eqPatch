@@ -16,21 +16,32 @@ Ce mod change les prix des parts pour
 - KER (oui les deux petites parts fournies avec le mod)
 En aucune manière la compatibilité de ce mod avec le mode carrière existant n'a été voulue car
 les contrats et la mécanique financière du jeu ne sont pas modifiés pour en tenir compte.
+De la même manière aucune prise en compte de part mods autres que ceux listés plus haut est assurée.
 
-## Construire le GameData
+## Construire le GameData KSPACECONTEST 2023
 ### Installation
 Pour le moment le mod n'est pas packagé CKAN aussi la liste des mods constituant le GameData du concours
-est la suivante. Nous vous recommandons de les installer via CKAN sauf mention contraire explicite.
-- KSRSS et sa dépendance Kopernicus. Vous pouvez aussi installer Kronometer si le coeur vous en dit.
-Attention KSRSS est à télécharger sur GitLab : https://gitlab.com/ksrss/KSRSS
-- KSCSwitcher, pour que Kourou soit la base spatiale par défaut
-- EVE, Scatterer
-- Restock, Restock+, Restock RigidLegs
-- KER, Trajectories
+est la suivante. Nous recommandons d'utiliser CKAN qui permet de gérer les dépendances.
+Si vous n'utilisez pas CKAN, à vous de trouver quelle dépendance doit s'appliquer.
+
+#1) Obligatoire#, avec CKAN, installez
+- Kopernicus.
+- Si vous souhaitez une gestion du temps depuis 1957, installez Kronometer
+- KSCSwitcher
+- KER,
+- Restockplus, Restockplus RigidLegs
+- Trajectories
+
+#2) Obligatoire#, manuellement, installez
+- KSRSS, https://gitlab.com/ksrss/KSRSS choisissez reborn
 - Version spécifique de Transfer Window Planner qui permet de créer des alarmes dans le KAC stock du jeu :
 https://github.com/yalov/TransferWindowPlanner/releases
-- Il n'y avait pas les KSPCommunityFixes mais vous pouvez l'ajouter sans problème.
-- et donc le contenu de GameData de ce présent mod
+- Notre patch trouvable dans nos releases https://github.com/oscar-chevalier/KSPACECONTEST23-tools/releases
+
+#3) Facultatif#, avec CKAN, installez
+- Kronometer,
+- EVE, Scatterer, PlanetShine, DistantObjectEnhancement
+- Nous recommandons chaudement d'installer KSPCommunityFixes 
 
 ### Configuration 
 Il y a 2 fichiers à modifier manuellement
@@ -83,6 +94,7 @@ This mod alters the price of parts for
 - KER (yes, the 2 little parts provided with this mod)
 In no way was the compatibility of this mod with the existing career mode intended because
 contracts and the financial mechanics of the game are not modified accordingly.
+In the same way, no consideration of part mods other than those listed above is ensured.
 
 ## Building your GameData
 ### Installation
