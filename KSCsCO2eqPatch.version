@@ -1,0 +1,23 @@
+{
+	"NAME"		: "KSCsCO2eqPatch",
+	"URL"		: "https://raw.githubusercontent.com/KSCsCO2eqPatch/master/KSCsCO2eqPatch.version",
+	"DOWNLOAD"	: "https://github.com/oscar-chevalier/KSCsCO2eqPatch/releases",
+	"CHANGE_LOG"	: "https://raw.githubusercontent.com/KSCsCO2eqPatch/master/KSCsCO2eqPatch/CHANGE_LOG.md",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/KSCsCO2eqPatch/master/KSCsCO2eqPatch/CHANGE.md",
+	"VERSION":{
+		"MAJOR":1,
+		"MINOR":0,
+		"PATCH":0,
+		"BUILD":0
+		},
+	"KSP_VERSION_MIN":{
+		"MAJOR":1,
+		"MINOR":12,
+		"PATCH":0
+		},
+	"KSP_VERSION_MAX":{
+		"MAJOR":1,
+		"MINOR":12,
+		"PATCH":9
+		}
+}
