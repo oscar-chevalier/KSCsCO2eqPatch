@@ -26,6 +26,7 @@ Si vous n'utilisez pas CKAN, à vous de trouver quelle dépendance doit s'appliq
 
 **1) Obligatoire**, avec CKAN, installez
 - Kopernicus Planetary System Modifier
+- Custom Barn Kit (dépendance de KSRSS)
 - KSCSwitcher 
 - KER,
 - Restockplus & Restock Extra RigidLegs
