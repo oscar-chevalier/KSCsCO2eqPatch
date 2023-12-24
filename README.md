@@ -18,6 +18,13 @@ En aucune manière la compatibilité de ce mod avec le mode carrière existant n
 les contrats et la mécanique financière du jeu ne sont pas modifiés pour en tenir compte.
 De la même manière aucune prise en compte de part mods autres que ceux listés plus haut est assurée.
 
+Par ailleurs, et là c'est une nouveauté par rapport au KSPACECONTEST2023, nous avons fait les choses proprement.
+A savoir que 4 pièces sont supprimées du jeu par notre mod :
+- Le moteur stock nucléaire
+- Le moteur Restock+ nucléaire
+- Le RTG
+- Le RTG des équipements scientifiques déployables du DLC Breaking Ground.
+
 ## Construire le GameData KSPACECONTEST 2023
 ### Installation
 Pour le moment le mod n'est pas packagé CKAN aussi la liste des mods constituant le GameData du concours
