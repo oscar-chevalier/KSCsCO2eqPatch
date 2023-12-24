@@ -32,7 +32,9 @@ Si vous n'utilisez pas CKAN, à vous de trouver quelle dépendance doit s'appliq
 - Trajectories
 
 **2) Obligatoire**, manuellement, installez
-- KSRSS, https://gitlab.com/ksrss/KSRSS choisissez reborn
+- KSRSS, https://gitlab.com/ksrss/KSRSS. Sous le titre de la page vérifiez bien que "reborn" est séléctionné, puis en haut à droite
+cliquez sur "Code" puis "download Zip". Une fois téléchargé ouvrez le zip et copiez KSRSS dans le GameData. Si vous avez une machine
+dotée d'une carte vidéo un peu costaude en terme de VRAM, vous pouvez prendre aussi KSRSS-64k.
 - Version spécifique de Transfer Window Planner qui permet de créer des alarmes dans le KAC stock du jeu :
 https://github.com/yalov/TransferWindowPlanner/releases
 - Notre patch trouvable dans nos releases https://github.com/oscar-chevalier/KSPACECONTEST23-tools/releases
