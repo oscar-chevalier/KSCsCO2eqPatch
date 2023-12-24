@@ -25,10 +25,10 @@ est la suivante. Nous recommandons d'utiliser CKAN qui permet de gérer les dép
 Si vous n'utilisez pas CKAN, à vous de trouver quelle dépendance doit s'appliquer.
 
 **1) Obligatoire**, avec CKAN, installez
-- Kopernicus.
-- KSCSwitcher
+- Kopernicus Planetary System Modifier
+- KSCSwitcher 
 - KER,
-- Restockplus, Restockplus RigidLegs
+- Restockplus & Restock Extra RigidLegs
 - Trajectories
 
 **2) Obligatoire**, manuellement, installez
