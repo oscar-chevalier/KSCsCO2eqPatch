@@ -43,6 +43,8 @@ https://github.com/yalov/TransferWindowPlanner/releases
 **3) Facultatif**, avec CKAN, installez
 - Si vous souhaitez une gestion du temps à la RSS, installez Kronometer
 - EVE, Scatterer, PlanetShine, DistantObjectEnhancement, Waterfall core, Waterfall Restock voire RealPlume pour les boosters à poudre
+Choisissez les versions stocks des fichiers de configuration si CKAN vous les demande (ex EVE: Stock Planet Config Files).
+KSRSS les patchera si nécessaire.
 - Nous recommandons chaudement d'installer KSPCommunityFixes 
 
 ## Les outils, leur utilisation
